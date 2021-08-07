@@ -19,7 +19,7 @@
   + Installing Knowage	11
   + A word about Metadata	16
  
- + **Data Science with Kowage**	
++ **Data Science with Kowage**	
   + Setup knowage on docker	
   + Knowage with python	
   + Knowage with R	
