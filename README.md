@@ -5,16 +5,89 @@
 * Enjoy reading!
 
 # Content
-1. INTRODUCTION	
-  1. Business Intelligence with Knowage	
-  2. Business Intelligence	
-  3. Introduction to Knowage	
-  4. Knowage Suite	
-  5. Knowage BD	
-  6. Knowage SI	
-  7. Knowage ER	
-  8. Knowage LI	
-  9. Knowage PM	
-  10. Knowage PA
-  11. Installing Knowage	11
-  12. A word about Metadata	16
++ **INTRODUCTION**	
+  + Business Intelligence with Knowage	
+  + Business Intelligence	
+  + Introduction to Knowage	
+  + Knowage Suite	
+  + Knowage BD	
+  + Knowage SI	
+  + Knowage ER	
+  + Knowage LI	
+  + Knowage PM	
+  + Knowage PA
+  + Installing Knowage	11
+  + A word about Metadata	16
+ 
+ + **Data Science with Kowage**	
+  + Setup knowage on docker	
+  + Knowage with python	
+  + Knowage with R	
+  
++ **OLAP (Online Analytical Processing)**
+  + OLAP (Online Analytical Processing)	
+  + Your first OLAP document in Knowage	
+  + Step 1: Load database.	
+  + Step 2: Create Data source connection.	
+  + Step 3: Create Business Model	
+  + Step 4: Mondrian Schema.	
+  + Creating a schema	
+  + Mondrian Schema Catalog	
+  + Creating OLAP document
+ 
++ **Location Intelligence with SVG Viewer Engine**
+  + What is Location Intelligence?	
+  + The Problem.	
+  + Solution.	
+  + Creating SVG map with Inkscape.	
+  + Template	
+  + Dataset	
+  + GIS with Knowage	
+  + Introduction to GIS	
+  + Scenario one	
+  + Solution
+
++ **QGIS**	
+  + GeoServer
+  + GeoJSON	
+  + Knowage with GIS	
+  + GIS Document	
+  + Attribute table	
+
++ **Charts and Cockpit**
+  + Introduction to cockpits
+  + Charts	
+  + Assignment
+
++ **Key Performance Indicators**
+  + Strategy
+  + Performance measurement
+  + Key performance indicators
+  + KPI in Knowage.
+  + STEP 1 – Measures definition
+  + STEP 2 – KPI definition
+  + STEP 3 – KPI Scheduler
+  + STEP 4 – KPI Document
+
++ **Knowage Report Designer**
+  + BIRT	
+  + Database connection.	
+  + Publishing Report.	
+  + Creating a dashboard with BIRT and Knowage	
+  + Creating a dashboard with BIRT and Knowage	
+  + Problem to be solved by dashboard.	
+  + SOLUTION
+
++ **Report parameters**
+  + Introduction
+  + BIRT report parameter	
+  + List of Values (LOV)	
+  + Analytical Drivers	
+  + Cross Navigation with BIRT and Knowage	
+  + Introduction	
+  + The Master Document
+  + Problem to be solved by cross navigation
+  + SOLUTION
+  + Child Report
+  + Analytical Driver
+  + Cross Navigation Definition
