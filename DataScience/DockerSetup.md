@@ -12,12 +12,13 @@ Replace `/home/developer/knowage-mariadb` with the location where you need your 
 **Step 2**  
 Pull and run Knowage server and try to use a stable version of Knowage to avoid errors during setup. As at writing this tutorial, the stable version is 7.4 so that is what I used.
 
-`docker run --rm  -p 8002:8080  -d -e DB_USER=root -e DB_PASS=pass123 -e DB_ROOT_PASS=pass123 \
--e DB_DB=db -e DB_HOST=192.168.8.167 -e DB_PORT=3308 -e HMAC_KEY=pass123 -e PASSWORD_ENCRYPTION_SECRET=pass123 \
--e PUBLIC_ADDRESS=192.168.8.167 knowagelabs/knowage-server-docker:7.4`
+`docker run  --rm --name knowage-server -p 8002:8080  -d -e DB_USER=root -e DB_PASS=pass123 -e DB_ROOT_PASS=pass123 \
+-e DB_DB=db -e DB_HOST=10.0.2.4 -e DB_PORT=3308 -e HMAC_KEY=pass123 -e PASSWORD_ENCRYPTION_SECRET=pass123 \
+-e CACHE_DB_HOST=10.0.2.4 -e CACHE_DB_PORT=3308 -e CACHE_DB_DB=db -e CACHE_DB_USER=root -e CACHE_DB_PASS=pass123 \
+-e PUBLIC_ADDRESS=10.0.2.4 knowagelabs/knowage-server-docker:7.4`
 
 **Step 3**  
 Lastly, pull and run the python image. Again, use a stable version. Alternatively, you can use R.
 
-`docker run --rm --name knowage-python -d  -v /home/developer/datasets:/datasets -e HMAC_KEY=pass123 -e KNOWAGE_PUBLIC_ADDRESS=http://192.168.8.167:8002 \
--e PUBLIC_ADDRESS=192.168.8.167 -p 5000:5000 knowagelabs/knowage-python-docker:7.4`
+`docker run --rm --name knowage-python -d  -v /home/developer/datasets:/datasets -e HMAC_KEY=pass123 -e KNOWAGE_PUBLIC_ADDRESS=http://10.0.2.4:8002 \
+-e PUBLIC_ADDRESS=10.0.2.4 -p 5000:5000 knowagelabs/knowage-python-docker:7.4`
