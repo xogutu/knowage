@@ -1,6 +1,8 @@
-# knowage
-Knowage Administration
-This repo contains doumentation and how to setup and make use of Knowage.
+# Knowage Administration
+* This repo contains documentation and how to setup and make use of Knowage.
+* These are summary from my book Knowage Baby steps.
+* Enjoy reading.
+* Contributions of any kind are welcome! You can also purchase my Knowage course on Udemy https://www.udemy.com/course/knowage-baby-steps.
 # Run knowage server as docker container
 
 First you need to start a database container. Here we use mariadb.
