@@ -7,7 +7,6 @@
 # Content
 + **INTRODUCTION**	
   + Business Intelligence with Knowage	
-  + Business Intelligence	
   + Introduction to Knowage	
   + Knowage Suite	
   + Knowage BD	
