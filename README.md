@@ -7,7 +7,7 @@
 # Content
 + **INTRODUCTION**	
   + [Business Intelligence with Knowage](https://github.com/xogutu/knowage/blob/main/Introduction/Business_Intelligence.md)
-  + Introduction to Knowage	
+  + [Introduction to Knowage](https://github.com/xogutu/knowage/blob/main/Introduction/Introduction_to_Knowage.md)	
   + Knowage Suite	
   + Knowage BD	
   + Knowage SI	
