@@ -9,8 +9,7 @@
   + [Business Intelligence with Knowage](https://github.com/xogutu/knowage/blob/main/Introduction/Business_Intelligence.md)
   + [Introduction to Knowage](https://github.com/xogutu/knowage/blob/main/Introduction/Introduction_to_Knowage.md)	
   + [Knowage Suite](https://github.com/xogutu/knowage/blob/main/Introduction/Knowage_Suite.md)	
-  + Installing Knowage	11
-  + A word about Metadata	16
+  + [Installing Knowage](https://github.com/xogutu/knowage/blob/main/Introduction/Installing_Knowage.md)
  
 + **Data Science with Kowage**	
   + Setup knowage on docker	
