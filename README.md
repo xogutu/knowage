@@ -11,7 +11,7 @@
   + [Knowage Suite](https://github.com/xogutu/knowage/blob/main/Introduction/Knowage_Suite.md)	
   + [Installing Knowage](https://github.com/xogutu/knowage/blob/main/Introduction/Installing_Knowage.md)
  
-+ **Data Science with Kowage**	
++ **Data Science with Knowage**	
   + [Setup knowage on docker](https://github.com/xogutu/knowage/blob/main/DataScience/DockerSetup.md)	
   + Knowage with python	
   + Knowage with R	
