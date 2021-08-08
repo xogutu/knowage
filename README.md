@@ -18,12 +18,8 @@
 + **OLAP (Online Analytical Processing)**
   + [OLAP (Online Analytical Processing)](https://github.com/xogutu/knowage/blob/main/OLAP/Online_Analytical_Processing.md)	
   + [Your first OLAP document in Knowage](https://github.com/xogutu/knowage/blob/main/OLAP/First_OLAP_Doc.md)
-  + Step 1: Load database.	
-  + Step 2: Create Data source connection.	
-  + Step 3: Create Business Model	
-  + Step 4: Mondrian Schema.	
-  + Creating a schema	
-  + Mondrian Schema Catalog	
+  + [Step 3: Create Business Model](https://github.com/xogutu/knowage/blob/main/OLAP/Database_and_Model.md)	
+  + Mondrian Schema.	
   + Creating OLAP document
  
 + **Location Intelligence with SVG Viewer Engine**
