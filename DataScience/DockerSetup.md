@@ -52,8 +52,8 @@ Click on the Type tab and for Dataset Type select `Python/R` and for environment
 Enter your dataframe variable in my case `df`. For dataset, we can use pandas to read an excel file on our disk. use whatever method you are comfortable with.
 
 `import pandas as pd`    
- `df = pd.read_csv('/datasets/students.csv',sep=',')
-`
+ `df = pd.read_csv('/datasets/students.csv',sep=',')`    
+
 ![image](https://user-images.githubusercontent.com/5442305/128616584-4b1103f5-9185-423f-8430-88ccc0c477b6.png)
 
 Preview your data and save dataset
