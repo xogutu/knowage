@@ -3,6 +3,7 @@
 The schema that we have created above needs to be stored in Knowage as a Mondrian Schema catalog. Once this is done, then we can use it together with the business model we had created previously to create an OLAP document. Proceed as follows to save the schema to in Knowage.
 
 1.	Under Catalogs, select “Mondrian schemas catalog”.
+
 ![image](https://user-images.githubusercontent.com/5442305/128624787-9536f721-eea8-41d9-be29-d4e27a7ae4b0.png)
 
 2.	Click on add button
