@@ -20,7 +20,7 @@
   + [Your first OLAP document in Knowage](https://github.com/xogutu/knowage/blob/main/OLAP/First_OLAP_Doc.md)
   + [Create Business Model](https://github.com/xogutu/knowage/blob/main/OLAP/Database_and_Model.md)	
   + [Mondrian Schema](https://github.com/xogutu/knowage/blob/main/OLAP/Mondrian_Schema.md)
-  + Creating OLAP document
+  + [Creating OLAP document](https://github.com/xogutu/knowage/blob/main/OLAP/CreatingOLAPdocument.md)
  
 + **Location Intelligence with SVG Viewer Engine**
   + What is Location Intelligence?	
