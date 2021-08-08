@@ -23,7 +23,7 @@
   + [Creating OLAP document](https://github.com/xogutu/knowage/blob/main/OLAP/CreatingOLAPdocument.md)
  
 + **Location Intelligence with SVG Viewer Engine**
-  + [Location Intelligence with Knowage](https://github.com/xogutu/knowage/tree/main/LocationIntelligence)	
+  + [Location Intelligence with Knowage](https://github.com/xogutu/knowage/blob/main/LocationIntelligence/Location_Intelligence.md)	
 
 + **QGIS**	
   + GeoServer
