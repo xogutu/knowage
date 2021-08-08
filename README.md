@@ -13,8 +13,7 @@
  
 + **Data Science with Knowage**	
   + [Setup knowage on docker](https://github.com/xogutu/knowage/blob/main/DataScience/DockerSetup.md)	
-  + Knowage with python	
-  + Knowage with R	
+  + [Knowage with python](https://github.com/xogutu/knowage/blob/main/DataScience/Knowage_with_python.md)	
   
 + **OLAP (Online Analytical Processing)**
   + OLAP (Online Analytical Processing)	
