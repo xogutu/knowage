@@ -26,6 +26,7 @@ Lastly, pull and run the python image. Again, use a stable version. Alternativel
 ** Server Settings**
 Under server settings menu, select Configuration management then search for python. For both `python.virtualenv.0.backend.url` and `python.virtualenv.0.frontend.url` configure them to have the IP address and port where the `knowagelabs/knowage-python-docker` container is running.
 Configure settings and setup your IP for both.
+
 ![image](https://user-images.githubusercontent.com/5442305/128616279-3fbb1a3f-70b4-44d2-80e6-7466fd515733.png)
 
 Go to roles and under authorizaion enable federated dataset and python scripts. This is very important otherwise your dataset will not work and also you will not be able to view lbraries in your python container.
@@ -37,6 +38,7 @@ Still under roles, click on default model category.
 ![image](https://user-images.githubusercontent.com/5442305/128616329-a24d0faa-164e-4909-9f3b-cdcb57c15fbb.png)
 
 Under dataset select default dataset category.  
+
 ![image](https://user-images.githubusercontent.com/5442305/128616343-2ac9c721-52f5-4383-ae29-2a50976a0c4a.png)
 
 Create a new dataset with options below under Detail tab.    
@@ -48,8 +50,8 @@ Click on the Type tab and for Dataset Type select `Python/R` and for environment
 ![image](https://user-images.githubusercontent.com/5442305/128616378-21e94eb0-3f68-4e29-ad71-e344d0f9413b.png)
 
 Enter your dataframe variable in my case `df`. For dataset, we can use pandas to read an excel file on our disk. use whatever method you are comfortable with.
-`import pandas as pd
-df = pd.read_csv('/datasets/students.csv',sep=',')
+`import pandas as pd`    
+ `df = pd.read_csv('/datasets/students.csv',sep=',')
 `
 ![image](https://user-images.githubusercontent.com/5442305/128616584-4b1103f5-9185-423f-8430-88ccc0c477b6.png)
 
