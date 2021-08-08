@@ -17,7 +17,7 @@
   
 + **OLAP (Online Analytical Processing)**
   + [OLAP (Online Analytical Processing)](https://github.com/xogutu/knowage/blob/main/OLAP/Online_Analytical_Processing.md)	
-  + Your first OLAP document in Knowage	
+  + ***Your first OLAP document in Knowage***	
   + Step 1: Load database.	
   + Step 2: Create Data source connection.	
   + Step 3: Create Business Model	
