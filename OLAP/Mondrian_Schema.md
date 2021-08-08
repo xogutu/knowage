@@ -150,42 +150,42 @@ Follow the steps below to download and install a free GUI tool to use in creatin
 
 34.	Save the schema as SchemaFoodMart.xml. It should look as follows.
 
-`
-<Schema name="Store">
-  <Cube name="Sales" visible="true" description="Sales Cube" cache="true" enabled="true">
-    <Table name="sales_fact" alias="">
-    </Table>
-    <Dimension type="StandardDimension" visible="true" foreignKey="TIME_ID" name="Time">
-      <Hierarchy name="Period" visible="true" hasAll="true" allMemberName="Sales Period" primaryKey="TIME_ID" primaryKeyTable="time_by_day">
-        <Table name="time_by_day" alias="">
-        </Table>
-        <Level name="Year" visible="true" table="time_by_day" column="THE_YEAR" uniqueMembers="false">
-        </Level>
-        <Level name="Quarter" visible="true" table="time_by_day" column="QUARTER" uniqueMembers="false" description="Quarter">
-        </Level>
-        <Level name="Month" visible="true" table="time_by_day" column="THE_MONTH" uniqueMembers="false" description="Month">
-        </Level>
-      </Hierarchy>
-    </Dimension>
-    <Dimension type="StandardDimension" visible="true" foreignKey="STORE_ID" name="Store" description="Store">
-      <Hierarchy name="Store" visible="true" hasAll="true" allMemberName="All Stores" primaryKey="STORE_ID" primaryKeyTable="store" description="Store">
-        <Table name="store" alias="">
-        </Table>
-        <Level name="Store" visible="true" table="store" column="STORE_NAME" uniqueMembers="false" description="Store">
-        </Level>
-      </Hierarchy>
-    </Dimension>
-    <Measure name="Store Sales" column="STORE_SALES" datatype="Numeric" formatString="$#,###.##" aggregator="sum" visible="true">
-    </Measure>
-    <Measure name="Store Cost" column="STORE_COST" datatype="Numeric" formatString="$#,###.##" aggregator="sum" visible="true">
-    </Measure>
-    <CalculatedMember name="Profit" formatString="" formula="[Measures].[Store Sales] - [Measures].[Store Cost]" dimension="Measures" visible="true">
-      <CalculatedMemberProperty name="FORMAT_STRING">
-      </CalculatedMemberProperty>
-    </CalculatedMember>
-  </Cube>
-</Schema>
-`
+
+`<Schema name="Store">`
+`  <Cube name="Sales" visible="true" description="Sales Cube" cache="true" enabled="true">`
+`    <Table name="sales_fact" alias="">`
+`    </Table>`
+`    <Dimension type="StandardDimension" visible="true" foreignKey="TIME_ID" name="Time">`
+`      <Hierarchy name="Period" visible="true" hasAll="true" allMemberName="Sales Period" primaryKey="TIME_ID" primaryKeyTable="time_by_day">`
+`        <Table name="time_by_day" alias="">`
+`        </Table>`
+`        <Level name="Year" visible="true" table="time_by_day" column="THE_YEAR" uniqueMembers="false">`
+`        </Level>`
+`        <Level name="Quarter" visible="true" table="time_by_day" column="QUARTER" uniqueMembers="false" description="Quarter">`
+`        </Level>`
+`        <Level name="Month" visible="true" table="time_by_day" column="THE_MONTH" uniqueMembers="false" description="Month">`
+`        </Level>`
+`      </Hierarchy>`
+`    </Dimension>`
+`    <Dimension type="StandardDimension" visible="true" foreignKey="STORE_ID" name="Store" description="Store">`
+`      <Hierarchy name="Store" visible="true" hasAll="true" allMemberName="All Stores" primaryKey="STORE_ID" primaryKeyTable="store" description="Store">`
+`        <Table name="store" alias="">`
+`        </Table>`
+`        <Level name="Store" visible="true" table="store" column="STORE_NAME" uniqueMembers="false" description="Store">`
+`        </Level>`
+`      </Hierarchy>`
+`    </Dimension>`
+`    <Measure name="Store Sales" column="STORE_SALES" datatype="Numeric" formatString="$#,###.##" aggregator="sum" visible="true">`
+`    </Measure>`
+`    <Measure name="Store Cost" column="STORE_COST" datatype="Numeric" formatString="$#,###.##" aggregator="sum" visible="true">`
+`    </Measure>`
+`    <CalculatedMember name="Profit" formatString="" formula="[Measures].[Store Sales] - [Measures].[Store Cost]" dimension="Measures" visible="true">`
+`      <CalculatedMemberProperty name="FORMAT_STRING">`
+`      </CalculatedMemberProperty>`
+`    </CalculatedMember>`
+`  </Cube>`
+`</Schema>`
+
 
 
 
