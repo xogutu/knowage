@@ -24,8 +24,6 @@
  
 + **Location Intelligence with SVG Viewer Engine**
   + What is Location Intelligence?	
-  + The Problem.	
-  + Solution.	
   + Creating SVG map with Inkscape.	
   + Template	
   + Dataset	
