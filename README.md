@@ -29,9 +29,8 @@
   + [Knowage using GeoServer](https://github.com/xogutu/knowage/blob/main/QGIS/GeoServer.md)
   
 + **Charts and Cockpit**
-  + Introduction to cockpits
-  + Charts	
-  + Assignment
+  + [Charts & cockpits](https://github.com/xogutu/knowage/blob/main/ChartsCockpit/ChartsAndCockpit.md)
+
 
 + **Key Performance Indicators**
   + Strategy
