@@ -37,24 +37,8 @@
 
 
 + **Knowage Report Designer**
-  + BIRT	
-  + Database connection.	
-  + Publishing Report.	
-  + Creating a dashboard with BIRT and Knowage	
-  + Creating a dashboard with BIRT and Knowage	
-  + Problem to be solved by dashboard.	
-  + SOLUTION
+  + [BIRT](https://github.com/xogutu/knowage/blob/main/KnowageReportDesigner/BIRT.md)
 
 + **Report parameters**
-  + Introduction
-  + BIRT report parameter	
-  + List of Values (LOV)	
-  + Analytical Drivers	
-  + Cross Navigation with BIRT and Knowage	
-  + Introduction	
-  + The Master Document
-  + Problem to be solved by cross navigation
-  + SOLUTION
-  + Child Report
-  + Analytical Driver
-  + Cross Navigation Definition
+  + Parameters and Cross Navigation
+
