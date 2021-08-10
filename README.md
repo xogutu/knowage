@@ -33,14 +33,8 @@
 
 
 + **Key Performance Indicators**
-  + Strategy
-  + Performance measurement
-  + Key performance indicators
-  + KPI in Knowage.
-  + STEP 1 – Measures definition
-  + STEP 2 – KPI definition
-  + STEP 3 – KPI Scheduler
-  + STEP 4 – KPI Document
+  + [KPI](https://github.com/xogutu/knowage/blob/main/KPI/KPI.md)
+
 
 + **Knowage Report Designer**
   + BIRT	
