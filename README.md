@@ -26,12 +26,8 @@
   + [Location Intelligence with Knowage](https://github.com/xogutu/knowage/blob/main/LocationIntelligence/Location_Intelligence.md)	
 
 + **QGIS**	
-  + GeoServer
-  + GeoJSON	
-  + Knowage with GIS	
-  + GIS Document	
-  + Attribute table	
-
+  + [Knowage using GeoServer](https://github.com/xogutu/knowage/blob/main/QGIS/GeoServer.md)
+  
 + **Charts and Cockpit**
   + Introduction to cockpits
   + Charts	
